@@ -15,7 +15,7 @@ Change into any directory that has both of these
 Then run:
 
 ```bash
-docker run -it --rm -v "$PWD"/:/usr/app/ mtheoryx/npm-audit:latest
+docker run -it --rm -v "$PWD"/:/usr/app/ devjulien/npm-audit:latest
 ```
 
 The output will be the results of the audit.
