@@ -4,4 +4,4 @@ WORKDIR /usr/app
 
 RUN npm i npm@6 -g
 
-CMD [ "npm", "audit" ]
+CMD [ "npm", "audit", "--json", "--verbose" ]
